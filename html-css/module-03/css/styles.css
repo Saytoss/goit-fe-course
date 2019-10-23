@@ -47,6 +47,7 @@ img {
 }
 .main {
     font-size: 0px;
+    padding-bottom: 71px;
 }
 .lifestyle-list {
     display: inline-block;
@@ -127,17 +128,17 @@ img {
     width: 420px;
 }
 .photodiary-list li:not(:last-child){
-    margin-right: 60px; }
-    .load-button {
-        display: block;
-        font-family: 'Playfair Display', serif;
-        font-size: 20px;
-        width: 164px;
-        height: 65px;
-        color: #626262;
-        border-width: 1px;
-        border-color: #626262;
-        background-color: transparent;
-        margin: 0 auto;
-        padding-bottom: 71px;
+    margin-right: 60px; 
+}
+.load-button {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    width: 164px;
+    height: 65px;
+    color: #626262;
+    border-width: 1px;
+    border-color: #626262;
+    background-color: transparent;
+    margin: 0 auto;
     }
