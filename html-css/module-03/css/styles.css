@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+.main-menu-list {
+    width: 900px;
+    display: inline-block;
+    text-align: center;
+}
+.main-menu-item {
+    display: inline-block;
+    margin-right: 110px ;
+}
+.navigation {
+    font-size: 0;
+}
+.main-menu-link {
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+.lifestyle-link {
+    color: #03a9f4;
+      
+}
+.header{
+    margin-top: 77px;
+    padding-bottom: 104px;
+}
+.lifestyle-list {
+    display: inline-block;
+}
+.lifestyle-img {
+    margin-bottom: 32px;
+}
+.lifestyle-paragraph {
+    width: 66px;
+    height: 12px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.lifestyle-title {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin-bottom: 45px;
+}
+.lifestyle-text{
+    width: 420px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    padding-bottom: 135px;
+}
