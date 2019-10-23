@@ -35,6 +35,7 @@ img {
     color: #626262;
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
+    height: 24px;
 }
 .lifestyle-link {
     color: #03a9f4;
@@ -44,15 +45,19 @@ img {
     margin-top: 77px;
     padding-bottom: 104px;
 }
+.main {
+    font-size: 0px;
+}
 .lifestyle-list {
     display: inline-block;
+    width: 900px;
 }
 .lifestyle-img {
     margin-bottom: 32px;
 }
 .lifestyle-paragraph {
     width: 66px;
-    height: 12px;
+    height: 17px;
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
@@ -61,14 +66,77 @@ img {
 }
 .lifestyle-title {
     font-size: 30px;
+    height: 36px;
     font-family: 'Playfair Display', serif;
     color: #626262;
     margin-bottom: 45px;
 }
 .lifestyle-text{
     width: 420px;
+    height: 24px;
     font-size: 14px;
     font-family: 'Playfair Display', serif;
     color: #626262;
     padding-bottom: 135px;
 }
+.menu-last {
+    margin-right: 0px;
+}
+.lifestyle-item {
+    margin: 0px;
+    display: inline-block;
+    width: 420px;
+}
+.lifestyle-list li:not(:last-child){
+    margin-right: 60px;
+}
+.photodiary-list {
+    display: inline-block;
+    width: 900px;
+}
+.photodiary-img {
+    margin-bottom: 32px;
+}
+.photodiary-paragraph {
+    width: 66px;
+    height: 17px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.photodiary-title {
+    font-size: 30px;
+    height: 36px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin-bottom: 45px;
+}
+.photodiary-text{
+    width: 420px;
+    height: 24px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    padding-bottom: 135px;
+}
+.photodiary-item {
+    margin: 0px;
+    display: inline-block;
+    width: 420px;
+}
+.photodiary-list li:not(:last-child){
+    margin-right: 60px; }
+    .load-button {
+        display: block;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        width: 164px;
+        height: 65px;
+        color: #626262;
+        border-width: 1px;
+        border-color: #626262;
+        background-color: transparent;
+        margin: 0 auto;
+    }
