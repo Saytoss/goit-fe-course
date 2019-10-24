@@ -25,6 +25,8 @@ img {
 }
 .main-menu-item {
     display: inline-block;
+}
+.main-menu-item:not(:last-child) {
     margin-right: 110px ;
 }
 .navigation {
@@ -37,9 +39,8 @@ img {
     font-family: 'Playfair Display', serif;
     height: 24px;
 }
-.lifestyle-link {
+.main-menu-link:hover {
     color: #03a9f4;
-      
 }
 .header{
     margin-top: 77px;
@@ -48,6 +49,8 @@ img {
 .main {
     font-size: 0px;
     padding-bottom: 71px;
+    width: 900px;
+    margin: 0 auto 0 auto;
 }
 .lifestyle-list {
     display: inline-block;
@@ -79,9 +82,6 @@ img {
     font-family: 'Playfair Display', serif;
     color: #626262;
     padding-bottom: 135px;
-}
-.menu-last {
-    margin-right: 0px;
 }
 .lifestyle-item {
     margin: 0px;
