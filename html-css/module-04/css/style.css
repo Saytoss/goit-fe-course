@@ -91,8 +91,8 @@ color:rgba(235, 249, 246, 0.6);
   .products-list-item:not(:nth-child(4n+4)) {
       margin-right: 30px;
   }
-  .product-name {
-    float: left;
+  .prod-button {
+    border: none;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
@@ -100,28 +100,18 @@ color:rgba(235, 249, 246, 0.6);
     line-height: 42px;
     width: 254px;
     height: 46px;
-    background-color: #323232;
+    background-color: rgb(50, 50, 50);
     margin-bottom: 32px;
-    text-align: center;
-    vertical-align: middle;
   }
   .cost {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    display: block;
     float: right;
-    background: #8c8c8c;
     width: 54px;
     height: 46px;
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
   }
-  .product-name:hover,
-  .product-name:focus  {
+  .prod-button:hover,
+  .prod-button:focus {
     background-color:#1abc9c;
-  }
-  .cost:hover,
-  .cost:focus {
-    background-color:#7fd9c7;
   }
   .products-section {
       padding-bottom: 104px; 
@@ -170,3 +160,4 @@ color:rgba(235, 249, 246, 0.6);
     margin-bottom: 46px;
     line-height: 1.625;
   }
+
