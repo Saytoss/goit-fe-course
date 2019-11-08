@@ -116,13 +116,11 @@ color:rgba(235, 249, 246, 0.6);
     text-align: center;
   }
   .product-name:hover,
-  .product-name:focus {
-    border-radius:"";
+  .product-name:focus  {
     background-color:#1abc9c;
   }
   .cost:hover,
-  .cost:focus{
-    border-radius:"";
+  .cost:focus {
     background-color:#7fd9c7;
   }
   .products-section {
@@ -141,7 +139,6 @@ color:rgba(235, 249, 246, 0.6);
   .news-title {
       font-size: 18px;
       font-family: 'Open Sans', sans-serif;
-      font-weight: semibold;
       line-height: 26px;
       color: #555252;
   }
