@@ -112,6 +112,9 @@ img {
 .slide-img {
     max-width: 100%;
 }
+.slides {
+    position: relative;
+}
 .slide-title {
 position: absolute;
 top: 210px;
