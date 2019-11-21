@@ -200,7 +200,6 @@ img {
     padding: 1.25rem;
     font-size: 0.875rem;
     font-family: "Montserrat";
-    color: rgb(187, 187, 187);
     font-weight: 700;
 }
 .form-input:focus {
@@ -224,12 +223,12 @@ input:required:focus:invalid {
     padding: 1.25rem;
     font-size: 0.875rem;
     font-family: "Montserrat";
-    color: rgb(187, 187, 187);
     font-weight: 700;
 }
 .textarea::placeholder,
 .form-input::placeholder {
 text-transform: uppercase;
+color: rgb(187, 187, 187);
 }
 .textarea:focus {
     outline: none;
