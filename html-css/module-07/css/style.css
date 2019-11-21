@@ -210,7 +210,7 @@ input:required:focus:invalid {
 }
 .textarea {
     width: 28.4375rem;
-    min-height: 13.5rem;
+    min-height: 14.75rem;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(204, 204, 204);
