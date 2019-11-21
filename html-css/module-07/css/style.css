@@ -197,6 +197,7 @@ img {
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     margin-bottom: 1.875rem;
+    padding: 1.25rem;
 }
 .form-input:focus {
     outline: none;
@@ -216,6 +217,11 @@ input:required:focus:invalid {
     border-radius: 2px;
     margin-bottom: 1.875rem;
     resize: none;
+    padding: 1.25rem;
+}
+.textarea::placeholder,
+.form-input::placeholder {
+text-transform: uppercase;
 }
 .textarea:focus {
     outline: none;
