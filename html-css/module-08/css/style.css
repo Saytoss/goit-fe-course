@@ -37,26 +37,26 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 138px;
+    padding-bottom: 8.625rem;
     background-image: linear-gradient(rgba(26, 25, 21, 0.1),rgba(26, 25, 21, 0.1)), url(../img/bgi/bgi.jpg);
 }
 .container {
-    width: 320px;
+    width: 20rem;
     margin: 0 auto;
 }
 .authorization-list {
 display: flex;
 justify-content: center;
-padding-left: 20px;
+padding-left: 1.25rem;
 }
 .authorization-list-item-link {
-    width: 90px;
-    font-size: 14px;
+    width: 5.625rem;
+    font-size: 0.875rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 700;
     line-height: 1.2;
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -65,7 +65,7 @@ padding-left: 20px;
 }
 .logo {
     display: block;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 700;
@@ -74,34 +74,34 @@ padding-left: 20px;
     text-align: center;
 }
 .header-title {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 700s;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .header-subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: "Roboto", sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 300;
     line-height: 1.2;
     text-align: center;  
-    width: 220px;
+    width: 13.75rem;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .header-btn {
     display: block;
     border-radius: 20px;
     background-color: rgb(255, 78, 80);
-    width: 280px;
-    height: 40px;
+    width: 17.5rem;
+    height: 2.5rem;
     border: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 700;
@@ -111,31 +111,31 @@ padding-left: 20px;
     cursor: pointer;
 }
 .main {
-    padding-bottom: 56px;
+    padding-bottom: 3.5rem;
 }
 .section-title {
-    padding-top: 70px;
-    font-size: 22px;
+    padding-top: 4.375rem;
+    font-size: 1.375rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(51, 51, 51);
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .partner-img {
     margin: 0 auto;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .partner-list-item {
     position: relative;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 .partner-list-item::before{
     content: "";
-    width: 37px;
-    height: 37px;
+    width: 2.3125rem;
+    height: 2.3125rem;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(255, 255, 255);
@@ -143,8 +143,8 @@ padding-left: 20px;
     position: absolute;
     background-repeat: no-repeat;
     background-position: center;
-    top: 85px;
-    left: 185px;
+    top: 5.3125rem;
+    left: 11.5625rem;
 }
 .partner-list-item:first-child::before {
     background-color: #ff4e50;
@@ -163,22 +163,22 @@ padding-left: 20px;
     background-image: url(../img/icons/tlg.png);
 }
 .partner-name {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(51, 51, 51);
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 .partner-description {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Roboto", sans-serif;
     color: rgb(102, 102, 102);
     line-height: 1.2;
     text-align: center;
     font-weight: 300;
-    width: 210px;
+    width: 13.125rem;
     margin: 0 auto;
 }
 .partner-btn {
@@ -186,10 +186,10 @@ padding-left: 20px;
     border: 2px solid rgb(255, 78, 80);
     border-radius: 20px;
     background-color: transparent; 
-    width: 284px;
-    height: 44px;
+    width: 17.75rem;
+    height: 2.75rem;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(255, 78, 80);
     font-weight: 700;
@@ -199,70 +199,70 @@ padding-left: 20px;
 }
 @media (max-width: 767px) {
     .authorization-list  {
-        margin-bottom: 130px;
-        padding-top: 30px;
+        margin-bottom: 8.125rem;
+        padding-top: 1.875rem;
     }
     .logo {
-        padding-bottom: 38px;
+        padding-bottom: 2.375rem;
     }
 }
   @media (min-width:768px) {
       .container {
-          width: 660px;
+          width: 41.25rem;
       }
       .header {
         background-image: linear-gradient(rgba(26, 25, 21, 0.3),rgba(26, 25, 21, 0.3)), url(../img/bgi/bgi-tablet.jpg); 
-        padding-bottom: 234px;
+        padding-bottom: 14.625rem;
       }
       .authorization {
           display: flex;
           flex-direction: row-reverse;
           justify-content: space-between;
-          margin-bottom: 148px;
-          padding-top: 50px;
+          margin-bottom: 9.25rem;
+          padding-top: 3.125rem;
       }
       .header-title {
-          font-size: 52px;
+          font-size: 3.25rem;
           margin: 0 auto;
-          width: 532px;
-          margin-bottom: 20px;
+          width: 33.25rem;
+          margin-bottom: 1.25rem;
       }
       .header-subtitle {
-        font-size: 24px;
-        width: 404px;
-        margin-bottom: 32px;
+        font-size: 1.5rem;
+        width: 25.25rem;
+        margin-bottom: 2rem;
       }
       .header-btn {
-        width: 226px;
+        width: 14.125rem;
       }
       .section-title {
-          padding-top: 66px;
-          font-size: 22px;
-          margin-bottom: 26px;
+          padding-top: 4.125rem;
+          font-size: 1.375rem;
+          margin-bottom: 1.625rem;
       }
       .partner-list {
-          width: 492px;
+          width: 30.75rem;
           display: flex;
           flex-wrap: wrap;
           margin: 0 auto;
           justify-content: space-between;
-          margin-bottom: 28px;
+          margin-bottom: 1.75rem;
       
       }
       .partner-list-item {
-          width: 236px;
+          width: 14.75rem;
       }
       .partner-list-item::before {
-          left: 147px;
+          left: 9.1875rem;
       }
       .partner-list-item:not(:nth-last-child(-n+2)){
-          margin-bottom: 50px;
+          margin-bottom: 3.125rem;
       }
       .partner-btn {
-        width: 197px;
+        width: 12.3125rem;
       }
       .main {
-          margin-bottom: 40px;
+          margin-bottom: 2.5rem;
       }
       .partner-list-item:nth-child(2){
           order: 3;
@@ -273,26 +273,26 @@ padding-left: 20px;
   } 
 @media (min-width:1440px) {
     .container {
-        width: 940px;
+        width: 58.75rem;
     }
     .header {
         background-image: linear-gradient(rgba(26, 25, 21, 0.3),rgba(26, 25, 21, 0.3)), url(../img/bgi/bgi-desktop.jpg);    
     }
     .authorization {
-        padding-top: 45px;
-        margin-bottom: 144px;
+        padding-top: 2.8125rem;
+        margin-bottom: 9rem;
     }
     .section-title {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
     .partner-list {
-        width: 940px;
-        margin-bottom: 36px;
+        width: 58.75rem;
+        margin-bottom: 2.25rem;
     }
     .partner-list-item {
-        width: 222px;
+        width: 13.875rem;
     }
     .main {
-        padding-bottom: 74px;
+        padding-bottom: 4.625rem;
     }
 }
