@@ -78,6 +78,7 @@ img {
     margin-bottom: 10px;
 }
 .header-subtitle {
+    width: 220px;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     color: rgb(255, 255, 255);
@@ -86,7 +87,6 @@ img {
     text-align: center;  
     margin: 0 auto;
     margin-bottom: 20px;
-    width: 220px;
 }
 .header-btn {
     display: block;
