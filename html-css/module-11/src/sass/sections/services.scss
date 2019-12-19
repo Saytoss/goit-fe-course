@@ -1,0 +1,86 @@
+.services {
+    padding-top: 42px;
+    padding-bottom: 56px;
+
+    &__title {
+    font-size: 24px;
+    font-family: "Kaushan Script", serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 12px;
+    }
+    &__subtitle {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+
+    &::after {
+    display: block;
+    content: "";
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 62px;
+    }
+}
+    &__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+    &-item {
+    width:382px;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 20px;
+
+    &:not(:nth-last-child(-n+3)){
+    margin-bottom: 64px;
+}
+    &:first-child {
+    background-image: url(../img/icons/ALARM.svg);
+}
+    &:nth-child(2) {
+    background-image: url(../img/icons/LINE-GRAPH.svg);
+}
+    &:nth-child(3){
+    background-image: url(../img/icons/COMPUTER.svg);
+}
+    &:nth-child(4) {
+    background-image: url(../img/icons/BOOK.svg);
+}
+    &:nth-child(5) {
+    background-image: url(../img/icons/HOME.svg);
+}
+    &:last-child {
+    background-image: url(../img/icons/IMAGE.svg);
+}
+    &-title {
+  font-size: 14px;
+  font-family: "Montserrat", serif;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+    }
+}
+    &__text {
+  font-size: 15px;
+  font-family: "Roboto",sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+}
+}
